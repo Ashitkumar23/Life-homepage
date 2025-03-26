@@ -1,0 +1,311 @@
+/*  ============ Navbar =================== */
+.navbar{
+    background-color: #eaeaea;
+    color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-link{
+    color: gray;
+}
+.Whatsapp-btn{
+    border-radius: 20px;
+    background-color: white;
+    color: #023acd
+}
+
+/* ============= hero-sec ============== */
+.Hero-sec{
+    background-color: #eaeaea;
+    height: 80vh;
+}
+.hero-main{
+    color: #023acd;
+    font-size: 48px;
+}
+.hero-flex{
+    padding: 50px;
+}
+.hero-main-subhead{
+    font-size: 24px;
+    color: #636366;
+}
+.submit{
+    text-align: center;
+}
+.hero-main-icon{
+    font-size: 32px;
+}
+.hero-main-text{
+    font-size: 24px;
+}
+.Hero-Form{
+    width: 50%;
+    background-color: #003366;
+    color: white;
+    
+    border-radius: 10px;
+}
+.hero-form-head{
+    text-align: center;
+}
+.Hero-text{
+    width: 50%;
+}
+.form-control{
+    background-color: #003366;
+    padding: 8px;
+    border-radius: 10px;
+}
+.form-field{
+    margin: 15px;
+}
+.schedule-submit{
+    background-color: white;
+    border-radius: 15px;
+}
+.terms{
+    color: yellow;
+    cursor: pointer;
+}
+.modal{
+    color: black;
+}
+/* ============ cards-sec =========== */
+.cards-sec{
+    background-color: #f3f3f3;
+}
+.card{
+    text-align: center;
+}
+.feat{
+    border-radius: 20px;
+}
+.feat-img{
+    height: 50px;
+    width: 60px;
+    margin-top: 20px;
+}
+.feat-text{
+    font-size: 18px;
+    color: gray;
+}
+
+/* ========== why choose us ========== */
+
+.Why-us{
+    background-color: #f3f3f3;
+}
+.Why-us-subsec{
+    background-color: white;
+    border-radius: 15px;
+}
+.whyus-head{
+    font-size: 42px;
+    color: #023acd;
+}
+.why-us-cont{
+    /* height: 80px;/ */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.188);
+}
+.why-us-img{
+    height: 100px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+/* ============= benefits======================== */
+.Benefits{
+    background-color: #f3f3f3;
+}
+.Benefits-cards{
+    border: none;
+}
+.benefits-img{
+    border-radius: 20px;
+}
+.benefits-text{
+    font-size: 20px;
+}
+.Benefits-back{
+    background-color: white;
+    border-radius: 20px;
+}
+.benefits-span{
+    color: #0041c3;
+    font-weight: 500;
+}
+.benefits-img{
+    background-color: #d2f2ff;
+}
+/* ================= faq ===================== */
+.Faq-sec{
+    background-color: #f3f3f3;
+}
+.Faq{
+    background-color: white;
+    border-radius: 20px;
+}
+.accordion-button{
+    background-color: white;
+}
+.Faq-img{
+    height: 350px;
+    width: 100%;
+    border-radius: 25px;
+}
+.Load-more{
+    columns: #586a92;
+    background-color: white;
+    border-style: none none solid none;
+   
+}
+/* ========= form =============== */
+.Demo-sche{
+    background-color:#f3f3f3;
+}
+.Demo-sec{
+    background-color: #16325b;
+    border-radius: 20px;
+    color: white;
+}
+.demo-input{
+    width: 300px;
+}
+.Demo-software-input{
+    width: 630px;
+}
+.schedule-form{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Hassle-free-img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+.Hassle{
+    background-color: #f3f3f3;
+}
+.Hassle-free{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.Hassle-free-text{
+    font-size: 22px;
+}
+.hass{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.schedule-submit-target{
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    background: rgb(0,152,219);
+background: linear-gradient(159deg, rgba(0,152,219,1) 0%, rgba(0,67,195,1) 100%);
+}
+.schedule-submit-target-foot{
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    background: rgb(0,152,219);
+    width: 380px;
+    background: linear-gradient(159deg, rgba(0,152,219,1) 0%, rgba(0,67,195,1) 100%);
+}
+.footer{
+    background-color: #ebebeb;
+}
+.foot-input{
+    width: 380px; 
+    border-width: 2px; 
+    border-color: gray;
+}
+@media only screen and (max-width: 770px) {
+    .LifeLinkr{
+        height: 30px;
+        width: 100px;
+        padding: 2px;
+    }
+    .hero-flex{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .Hero-sec{
+        height: 100%;
+    }
+    .hero-main{
+        font-size: 32px;
+    }
+    .hero-main-head{
+        width: 360px;
+    }
+    .hero-main-subhead{
+        font-size: 18px;
+    }
+    .Hero-text{
+        width: 100%;
+    }
+    .hero-main-text{
+        font-size: 16px;
+        width: 50%;
+    }
+    .hero-main-icon{
+        font-size: 18px;
+    }
+    .none{
+        display: none;
+    }
+    .Hero-Form{
+        width: 100%;
+    }
+    .form-control{
+        padding: 8px;
+        width: 100px;
+        font-size: 12px;
+    }
+    .form-field{
+        margin: 0px;
+        padding: 10px;
+    }
+    .why-us-cont{
+        flex-direction: column;
+    }
+    .text-area{
+        width: 220px;
+    }
+    .Demo-software-input{
+        width: 220px;
+    }
+    .hass{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .hass-two{
+        flex-direction: column-reverse;
+    }
+    .Hassle-free-img{
+        width: 300px;
+    }
+    .foot{
+        flex-direction: column-reverse;
+    }
+    .foot-input,.schedule-submit-target-foot{
+        width: 300px;
+    }
+    .foot-text{
+        margin-top: 30px;
+    }
+    .foot-para{
+        font-size: 14px;
+    }
+    .Foot-last-para{
+        font-size: 7px;
+    }
+   }
